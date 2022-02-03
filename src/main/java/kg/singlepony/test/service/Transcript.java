@@ -16,6 +16,7 @@ public class Transcript {
 
 
 
+//        что то происходит
     }
 
     public static String startTranscript() {
