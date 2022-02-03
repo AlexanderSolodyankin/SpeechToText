@@ -4,7 +4,8 @@
 https://cmusphinx.github.io/wiki/tutorial/
 
 2) Часто задаваемые вопросы (FAQ)
-https://cmusphinx.github.io/wiki/faq/
-
+https://cmusphinx.github.io/wiki/faq
+Стоят лингистический модуль
+1) английский язык
 
 

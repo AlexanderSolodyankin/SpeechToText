@@ -12,12 +12,9 @@ import edu.cmu.sphinx.api.StreamSpeechRecognizer;
 public class Transcript {
     public static void main(String[] args) {
         String url = "C:\\Users\\ASUS\\Desktop\\SpeechToText\\secondTry\\ПересборкаПроекта\\src\\main\\resources\\edu\\cmu\\sphinx\\demo\\aligner\\10001-90210-01803.wav";
-//        String write = startTranscript();
-        int count = 1;
-while (true){
-    if(count == 1400000) break;
-    System.out.println(count);
-}
+        String write = startTranscript();
+
+
 
     }
 
