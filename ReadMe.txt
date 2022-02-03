@@ -11,6 +11,7 @@ https://cmusphinx.github.io/wiki/faq
 
 3) https://koji-ajimofu.livejournal.com/222197.html
 
-  4) https://www.youtube.com/watch?v=R8vsXKFTee0
+4) https://www.youtube.com/watch?v=R8vsXKFTee0
 
 
+5) http://www.voxforge.org/home/forums/other-languages/russian/-----sphinx4
