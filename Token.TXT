@@ -1,0 +1,31 @@
+
+токен с саайта
+AQAAAABVZG-HAATuwQOh3DzwcUCnrjBinq
+
+id моего облака
+b1gjohbmsr1pbctr9k4q
+
+Команда авторизации в консоли
+yc config set token AQAAAABVZG-HAATuwQOh3DzwcUCnrjBinq8eijU
+
+
+
+
+
+> $IAM_TOKEN=yc iam create-token
+>> curl.exe -H "Authorization: Bearer $IAM_TOKEN" https://resource-manager.api.cloud.yandex.net/resource-manager/v1/clouds
+
+полученный JSON
+
+{
+ "clouds": [
+  {
+   "id": "b1gqoit44ijdvsbvjhcq",
+   "createdAt": "2022-02-03T09:15:45Z",
+   "name": "cloud-alxandersolodyankin",
+   "organizationId": "bpfdns2d58pehq4li4ee"
+  }
+ ]
+}
+
+
