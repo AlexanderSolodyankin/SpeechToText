@@ -1,1 +1,1 @@
-{"result":""}
+{"error_code":"UNAUTHORIZED","error_message":"rpc error: code = Unauthenticated desc = The token is invalid"}

@@ -59,7 +59,10 @@ public class Cloud extends Request {
 
     public byte[] request(Task task) throws InterruptedException, IOException, URISyntaxException {
         task.addParam(this.task);
-        return send(task.getURL(), task.getParam(), headers);
+       byte[] sen = send(task.getURL(), task.getParam(), headers);
+        System.out.println("Параметры задачи " + task.getParam());
+        System.out.println("Урл задачи " + task.getURL());
+       return sen;
     }
 
 }

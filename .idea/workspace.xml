@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ada0f57-53e6-4bf6-8813-22c2a27582e7" name="Default Changelist" comment="пример синтеза речи" />
+    <list default="true" id="3ada0f57-53e6-4bf6-8813-22c2a27582e7" name="Default Changelist" comment="пример синтеза речи">
+      <change beforePath="$PROJECT_DIR$/Recognition.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dvp/yask/ByteArrayToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dvp/yask/ByteArrayToFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Cloud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Cloud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dvp/yask/ByteArrayToFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/dvp/yask/ByteArrayToFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Cloud.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Cloud.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/test.ogg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
