@@ -47,6 +47,6 @@ public class Text extends Kit {
             }
             sb.append(k).append("=").append(v);
         });
-        return sb.toString();
+        return sb.toString() ;
     }
 }

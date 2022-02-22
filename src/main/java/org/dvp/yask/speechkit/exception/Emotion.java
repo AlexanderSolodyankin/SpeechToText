@@ -3,7 +3,7 @@ package org.dvp.yask.speechkit.exception;
 /**
  *  Параметры эмоциональной окраски
  */
-public class Emotion
+public class    Emotion
 {
     /**
      * Доброжелательная

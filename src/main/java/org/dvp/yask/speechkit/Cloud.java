@@ -34,8 +34,12 @@ public class Cloud extends Request {
     private Map<String, String> task;
 
     public Cloud(String oAuthToken, String folderId) throws ClientException, InterruptedException, IOException, URISyntaxException {
-        if (folderId.length() > Limit.FOLDER_ID_LENGTH) {
-            throw new ClientException(Message.LENGTH_ERROR);
+        /**
+         * Конструктор принимает строки токена и ID облака с возможностью вызова ошибок (исключения 3 вида)
+         * ошибка связанная с клиентом, Ошибка прерывания, ошибка ввода вывода и ошибка связанная с адресом
+         */
+        if (folderId.length() > Limit.FOLDER_ID_LENGTH) { // если длина сроки облака больше лимита длины строки облака
+            throw new ClientException(Message.LENGTH_ERROR); // выбросить ошибку клиента
         }
         headers = new HashMap<>();
         task = new HashMap<>();
@@ -60,8 +64,6 @@ public class Cloud extends Request {
     public byte[] request(Task task) throws InterruptedException, IOException, URISyntaxException {
         task.addParam(this.task);
        byte[] sen = send(task.getURL(), task.getParam(), headers);
-        System.out.println("Параметры задачи " + task.getParam());
-        System.out.println("Урл задачи " + task.getURL());
        return sen;
     }
 

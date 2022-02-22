@@ -43,7 +43,6 @@ public abstract class Kit implements Task {
     {
         task.put(RATE, !format.equals(Format.OGGOPUS) ? Rate.HIGH : null);
         task.put(FORMAT, format);
-
         return this;
     }
 

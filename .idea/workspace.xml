@@ -5,19 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ada0f57-53e6-4bf6-8813-22c2a27582e7" name="Default Changelist" comment="пример синтеза речи">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/draft/Dradt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Recognition.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecognitionSound.ogg.sfk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/dvp/yask/ByteArrayToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dvp/yask/ByteArrayToFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Cloud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Cloud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Kit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Kit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Request.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/exception/Emotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/exception/Emotion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/dvp/yask/ByteArrayToFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/dvp/yask/ByteArrayToFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Cloud.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Cloud.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Kit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Kit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Request.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/test.ogg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -54,6 +68,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dradt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dvp.yask.speechkit.draft.Dradt" />
+      <module name="yandex-speech-kit-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dvp.yask.speechkit.draft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY" nameIsGenerated="true">
       <option name="adminPort" value="8005" />
       <option name="contextPath" value="/yandex-speech-kit-java" />
@@ -76,11 +104,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.ByteArrayToFile" />
+      <item itemvalue="Application.Dradt" />
       <item itemvalue="Smart Tomcat.Unnamed" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ByteArrayToFile" />
+        <item itemvalue="Application.Dradt" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +130,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644399418775</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="пример синтеза речи">
+      <created>1644489606120</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644489606120</updated>
+    </task>
+    <task id="LOCAL-00003" summary="пример синтеза речи">
+      <created>1644489812278</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644489812278</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
