@@ -61,9 +61,7 @@ public abstract class Kit implements Task {
     public void addParam(Map<String, String> param) {
         System.out.println("Класс Kit/  метод addParam/ строка 62 начало метода получил " + param);
         System.out.println("Класс Kit/  метод addParam/ строка 63 размотка ");
-        for (Map.Entry<String, String> entry : param.entrySet()) {
-            System.out.println(entry.getKey() + ":" + entry.getValue().toString());
-        }
+        //  тут хочу развернуть мапу
         System.out.println("Класс Kit/  метод addParam/ строка 67 размотка завершена ");
         System.out.println("Класс Kit/  метод addParam/ строка 68 вложил зночение в таск ");
         task.putAll(param);
@@ -79,7 +77,14 @@ public abstract class Kit implements Task {
     @Override
     public String toString() {
         return "Kit{" +
-                "task=" + task +
+                "task=" + getStringMap() +
                 '}';
+    }
+    public String getStringMap(){
+        String write ="";
+        for (Map.Entry<String, String> entry : task.entrySet()) {
+            write = write + entry.getKey() + ":" + entry.getValue().toString();
+        }
+        return write;
     }
 }
