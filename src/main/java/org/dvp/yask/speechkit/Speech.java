@@ -33,6 +33,7 @@ public class Speech extends Kit implements Task {
     private final static String SPEED = "speed";
 
     public Speech(String text) throws ClientException {
+        System.out.println("Класс Speech/ Конструктор Speech/ строка 36 Пришло: " + text );
         if (text.length() > Limit.SYNTHESIZE_TEXT_LENGTH) {
             throw new ClientException(Message.LENGTH_ERROR);
         }
@@ -57,6 +58,7 @@ public class Speech extends Kit implements Task {
     }
 
     public Speech setSpeed(String speed) {
+        System.out.println("Класс Speech/ метод setSpeed/ строка 60: " + speed);
         task.put(SPEED, speed);
         return this;
     }
@@ -72,11 +74,13 @@ public class Speech extends Kit implements Task {
             }
             sb.append(k).append("=").append(v);
         });
+        System.out.println("Класс Speech/ метод getParam/ строка 76: " + sb.toString());
         return sb.toString();
     }
 
     @Override
     public String getURL() {
+        System.out.println("Класс Speech/ метод getURL/ строка 82: " + URL.SYNTHESIZE);
         return URL.SYNTHESIZE;
     }
 }

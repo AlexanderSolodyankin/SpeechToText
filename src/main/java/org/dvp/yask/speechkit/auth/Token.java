@@ -7,4 +7,11 @@ public class Token
     public String getIamToken() {
         return iamToken;
     }
+
+    @Override
+    public String toString() {
+        return "Token{" +
+                "iamToken='" + iamToken + '\'' +
+                '}';
+    }
 }
