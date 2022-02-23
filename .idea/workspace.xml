@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ada0f57-53e6-4bf6-8813-22c2a27582e7" name="Default Changelist" comment="удолить как закончишь">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dvp/yask/ByteArrayToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dvp/yask/ByteArrayToFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Kit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Kit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Speech.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Speech.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Voice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dvp/yask/speechkit/Voice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Speech.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Speech.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/test.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dvp/yask/ByteArrayToFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/dvp/yask/ByteArrayToFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Cloud.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Cloud.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Kit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Kit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Voice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/Voice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/auth/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/dvp/yask/speechkit/auth/Token.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645531001652</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="удолить как закончишь">
+      <created>1645560552943</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645560552943</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
